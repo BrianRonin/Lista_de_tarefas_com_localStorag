@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+
+:root {
+  --primary: rgb(53, 28, 4);
+}
+
+* {
+  box-sizing: border-box;
+  outline: 0;
+  color: white;
+  font-family: "Ubuntu", sans-serif;
+
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+  max-width: 80%;
+
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: red;
+
+  overflow-x: hidden !important;
+}
+
+.containerr {
+
+  display: grid;
+
+  justify-items: center;
+
+
+
+  width: 100%;
+  height: 100%;
+  grid-template-columns: 100%;
+  grid-template-rows: 70px 130px auto;
+  background-color: black;
+
+
+}
+
+
+
+#form input:focus {
+  outline: 1px solid rgb(0, 247, 255);
+  color: black;
+  font-size: 20px;
+  text-align: center;
+
+
+
+}
+
+#form {
+
+  display: grid;
+
+  justify-items: center;
+  align-items: center;
+
+  width: 100%;
+  height: 100%;
+
+}
+
+input {
+  width: 100%;
+  height: 100%;
+  color: black;
+  font-size: 20px;
+  text-align: center;
+
+}
+
+/* tarefas   */
+
+#div-lista-de-tarefas {
+  font-size: 3vh;
+  display: grid;
+
+  grid-template-columns: 100%;
+  width: 100%;
+
+
+  position: relative;
+  /* grid-template-columns: 80% 20%; */
+
+
+}
+
+p {
+  /* border: 0px;
+  border-top: 1px;
+  border-bottom: 1px;
+
+  border-color: white;
+  border-style: solid; */
+
+  text-align: center;
+  margin: 5px;
+  max-width: 100%;
+
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  hyphens: auto;
+}
+
+.tarefa {
+  display: grid;
+
+  grid-auto-rows: auto;
+  grid-template-columns: 80% 20%;
+
+
+  width: 100%;
+
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+  padding: 20px 0px;
+
+  border: 0px;
+  border-top: 1px;
+  border-color: white;
+  border-style: solid;
+}
+
+.mx-2 {
+  height: 100%;
+}
+
+.submit {
+  height: 100%;
+  width: 100%;
+  font-size: 30px;
+}
